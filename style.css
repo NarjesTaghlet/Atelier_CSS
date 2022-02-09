@@ -1,0 +1,122 @@
+.topimg {
+  position: relative;
+  top: 0px;
+  right: 0px;
+	left: 0px;
+	width: 100%;
+}
+.topimgflash{
+	margin-top:-5px;
+	width:100%;
+}
+
+body{
+	margin: 0px;
+}
+body *{
+	padding:0px;
+	border:0px;
+	margin:0px;
+}
+.article{
+	position:relative;
+	display: table;
+	margin: 0 auto;
+	width:60%;
+}
+nav ul{
+	margin-top:-5px;
+	display:table;
+	position: relative;
+	left:0px;
+  right: 0 ;
+	width:98.2%;
+}
+ul li a{
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+ /* ajouter un effet transparent */
+ text-shadow: 0 1px 0 rgba(255,255,255,.4); /* ombrer le texte */
+
+}
+ul li a:active{
+color: rgba(0,0,0,.7); /* ajouter un effet transparent */
+ text-shadow: 0 1px 0 rgba(255,255,255,.4); /* ombrer le texte */
+ box-shadow: 0 1px 0 rgba(255,255,255,.7) inset, /* ombrer le box */
+ 0 -1px 0 hsl(210,100%,32%) inset,
+ 0 -2px 0 hsl(210,100%,38%) inset,
+ 0 -3px 0 hsl(210,100%,44%) inset,
+ 0 -4px 0 hsl(210,100%,50%) inset,
+ 0 -5px 0 hsl(210,100%,60%) inset;
+}
+ul li{
+	display: table-cell;
+	background:#B33030;
+	width:20%;
+}
+ul li:hover{
+	background: black;
+	background-image: url("img/rings.png");
+	background-repeat: no-repeat;
+	background-position:right;
+}
+.logo{
+	margin-top: -4.7px;
+	margin-left:-4px;
+	position: absolute;
+  top: 0 ;
+
+	}
+.imgbottom {
+position: relative;
+bottom: 0px;
+	left: 0px;
+  right: 0px;
+	width: 100%;
+}
+
+table{
+	margin-top: 50px;
+	width: 100%;
+}
+h1{
+	color:#8B332A;
+	padding-top: 20px;
+}
+.paragraphe{
+	margin-top:10px;
+	margin-bottom:30px;
+	font-family:Helvetica;
+}
+td{
+	position: relative;
+	padding: 0px 10px ;
+}
+td a{
+	font-family:Arial;
+	color:#8B332A;
+	font-weight:600;
+	text-decoration:none;
+}
+.img6{
+	float: right;
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+}
+.ligne{
+	padding-top: 50px;
+}
+
+.col{
+	font-size:24px;
+	padding-top:5px;
+}
+.text{
+  text-align: center;
+}
